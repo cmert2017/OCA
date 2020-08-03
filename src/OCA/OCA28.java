@@ -10,6 +10,8 @@ public class OCA28 {
         List<String> arrList = new ArrayList<>(Arrays.asList(arr));
         if(arrList.removeIf(s -> {System.out.print(s); return s.length() <=2;} )){
             System.out.println(" removed");
+            
+            //1st commit
 
         }
     }
